@@ -3,114 +3,236 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compasso musical- loja de instrumentos musicais</title>
+    <title>Compasso Musical - loja de instrumentos Musicais</title>
 </head>
 <body>
-    <!--cabeçalho-->
+   <!-- cabeçalho -->
     <header>
         <div id="logo">
-            <h1>Compasso musical</h1>
+            <h1>Compasso Musical</h1>
         </div>
         <nav>
             <ul>
                 <li>
-                    <a href="">inicio</a>
+                    <a href="#hero">Inicio</a>
                 </li>
-                 <li>
-                    <a href="">sobre</a>
+                <li>
+                    <a href="#sobre">Sobre</a>
                 </li>
-                 <li>
-                    <a href="">instrumento</a>
+                <li>
+                    <a href="#instrumentos">Instrumentos</a>
                 </li>
-                 <li>
-                    <a href="">depoimentos</a>
+                <li>
+                    <a href="#depoimentos">Depoimentos</a>
                 </li>
-                 <li>
-                    <a href="">contato</a>
+                <li>
+                    <a href="#contatos">contatos </a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <!--conteudo principal-->
-    <main>
-        conteudo principal
-    </main>
-    <!--rodapé do site-->
-    <footer>
-        <div>
-            <h2>compaso musical</h2>
+    <!-- conteudp principal-->
+     <main>
+        <section id="hero">
+            <h2>O som da sua vida começa aqui</h2>
             <p>
-                desde 2026 conectando pessoas atraves da musica.
+                Encontre as melhores marcas de violino, trompetes ou violoes 
+            </p>
+            <img 
+                src="banda de rock.jpg" 
+                alt="banda de rock num show usando os instrumentos musicais da compasso musical"
+                width="600"
+            >
+            <br><br>
+            <a href="">Ver nossas ofertas</a>
+        </section>
+
+        <!--Seçao instrumentos-->
+        <section id="hero"></section>
+        <h2>sobre a compasso Musical</h2>
+        <p>
+            Nossa loja nasceu da paixao pela musica. nossa missao e entregar qualidade sonora tanto para quem esta aprendendo os primeiros acordes quanto para mmusicos profissionais.
+        </p>
+        <ul>
+            <li>Todos os instrumentos sao revisados por nossa equipe tecnica.</li>
+            <li>garantia estendida de fabrica.</li>
+            <li>suporte e atendimento feito por musicos reais.</li>
+        </ul>
+         </section>
+
+         <!--seçao instrumentos-->
+         <section id="produtos">
+            <h2>catalogo</h2>
+            <article>
+               <h3>guirrtarra eletrica stratocaster</h3>
+               <img 
+               src="guitarra.jpg" 
+               alt=""
+               width="300"
+               >
+               <p>
+                <strong>Marcas:</strong>
+               </p>
+               <p>
+                guirrtarra classica de altar performance, ideal para rock e blues
+               </p>
+               <p>
+                <em>Preço:R$ 3.500,00</em>
+               </p>
+               <a href="#">adicionar ao carrinho</a>
+            </article>
+             <article>
+               <h3>Kit bateria </h3>
+               <img 
+               src="https://images.unsplash.com/photo-1602001373676-64e1598dbc6a" 
+               alt="imagem do kit de bateria"
+               width="300"
+               >
+                 <p>
+                <strong>Marcas:</strong>pearl</p>
+               </p>kit de bateria preto e roxo ideal para voce. </p>
+               <p>
+                guirrtarra classica de altar performance, ideal para rock e blues
+               </p>
+               <p>
+                <em>Preço:R$ 13.900,00</em>
+               </p>
+               <a href="#">adicionar ao carrinho</a>
+            </article>
+         </section>
+
+         <!--seçao depoimentos-->
+            <SECTION id="#depoimentos">
+                <h2>O que nossos clientes dizem</h2>
+                <blockquote>
+                    <p>"
+                        A bateria chegou super rapido aqui em cuiaba-mt e perfeitamente embalada. O som é inclivel"
+                    </p>
+                    <footer>
+                        - <cite>Douglas/Preto baterista</cite>
+                    </footer>
+                </blockquote>
+                <br>
+                <blockquote>
+                    <p>
+                        "comprei minha perfeitamente guirrtarra no compasso Musical. O atendimento me ajudou a escolher o modelo certo!"
+                    </p>
+                    <footer>
+                        - <cite>Maria Eduarda ferretti, estudante de musica</cite>
+                    </footer>
+                </blockquote>
+            </SECTION>
+
+            <!--seçao contatos-->
+            <section id="contatos">
+                <h2>Fale conosco</h2>
+                <p>
+                    tem duvidas sobre algum istrumento? mande uma mensagem ou venha nos visitar.
+                </p>
+                <address>
+                    <p>
+                        Loja fisica: <strong>Centro Historico Cuiaba-MT</strong>
+                    </p>
+                </address>
+                <form action="#">
+                    <label for="nome">Nome Completo</label>
+                    <br>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required >
+                    <br><br>
+                    <label for="emeail">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu E-mial" required>
+                    <br><br>
+                    <label for="depatamento">Departamento</label>
+                    <br>
+                    <select name="departamento" id="departamento">
+                        <option value="vendas">Vendas</option>
+                        <option value="suporte">Suporte tecnico</option>
+                        <option value="financeiro">Financeiro</option>
+                        <option value="susgestao">Sugestões</option>
+                    </select>
+                    <br><br>
+                    <label for="menssagem">Menssagem</label >
+                    <br>
+                    <textarea name="menssagem" id="menssagem" rows="10" placeholder="Digite sua menssagem"></textarea >
+                    <br><br>
+                    <button type="submit">Enviar menssagem</button>
+                </form>
+            </section>
+     </main>
+
+     <!-- rodapé do site-->
+      <footer>
+        <div>
+            <h2>Compasso musical</h2>
+            <p>
+                Desde 2026 conectando pessoas atraves da musica.
             </p>
         </div>
 
         <nav>
-            <h3>mapa do site</h3>
+            <h3>Mapa do site</h3>
             <ul>
                 <li>
-                    <a href="">inicio</a>
+                    <a href="#hero">Inicio</a>
                 </li>
-                 <li>
-                    <a href="">sobre</a>
+                <li>
+                    <a href="#sobre">Sobre</a>
                 </li>
-                 <li>
-                    <a href="">instrumento</a>
+                <li>
+                    <a href="#instrumentos">Instrumentos</a>
                 </li>
-                 <li>
-                    <a href="">depoimentos</a>
+                <li>
+                    <a href="#depoimentos">Depoimentos</a>
                 </li>
-                 <li>
-                    <a href="">contato</a>
+                <li>
+                    <a href="#contatos">contatos</a>
                 </li>
             </ul>
         </nav>
-
+        
         <nav>
-            <h3>irfomações</h3>
+            <h3>Insformações</h3>
             <ul>
                 <li>
-                    <a href="">termos de uso</a>
+                    <a href="">Termos de Uso</a>
                 </li>
                 <li>
-                    <a href="">politicas de privacidade</a>
+                    <a href="">Politica de Privacidade</a>
                 </li>
                 <li>
-                    <a href="">troca e devoluções</a>
+                    <a href="">Trocas e devoluçoes</a>
                 </li>
             </ul>
         </nav>
 
         <div>
-            <h3>Siga-nos</h3>
+            <h3>Siga-Nos</h3>
             <div>
                 <a href="">
-                    <img src="instragram.png" alt="instagram">
+                   <img src="instagram.png" alt="instagram"> 
                 </a>
                 <a href="">
-                    <img src="youtube.png" alt="youtube">
+                   <img src="youtube.png" alt="Youtube"> 
                 </a>
-                 <a href="">
-                    <img src="fecebook.png" alt="Facebook">
+                <a href="">
+                   <img src="facebook.png" alt="Fecebook"> 
                 </a>
+
             </div>
+            <h3>Newslatter</h3>
+            <p>
+                Receba promoções exclusivas no seu e-mail
+            </p>
+            <form action="">
+                <input type="email" name="email" id="email" placeholder="digite seu e-mail">
+                <button>Assinar</button>
 
-            <div>
-        <h3>NewsLatter</h3>
-        <p>
-            Receba promocoes exclusivas no seu E-mail
-        </p>
-        <form action="">
-            <input type="email" name="email" id="email" placeholder="Digite seu E-mail">
-            <button> type="</button>
-        </form>
+            </form>
         </div>
-
-        <div>
         <p>
-            copyright &copy;2026 compasso Musical - Todos os direitos reservados. site desenvolvido por Maria Eduarda Ferritti  
+            Copyright &copy; 2026 compaso musical - todos os direitos reservados. site desenvolvidos por Rafael Pacifico.
         </p>
-        </div>
-    </footer>
-</body>
+      </footer>
+    </body>
 </html>
